@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Contact {
     String firstName;
     String lastName;
@@ -6,9 +8,9 @@ public class Contact {
     String state;
     String phoneNumber;
     String email;
-    int pin;
+    Integer pin;
 
-    public Contact(String firstName, String lastName, String address, String city, String state, String phoneNumber, String email, int pin) {
+    public Contact(String firstName, String lastName, String address, String city, String state, String phoneNumber, String email, Integer pin) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
@@ -32,4 +34,6 @@ public class Contact {
                 ", pin=" + pin +
                 '}';
     }
+
+
 }
